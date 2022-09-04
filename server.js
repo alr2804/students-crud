@@ -1,5 +1,5 @@
-const express = require('express');
-const app = express();
+
+const app = require("./app")
 const port = 3000;
 
 const MongoClient = require('mongodb').MongoClient
@@ -20,6 +20,7 @@ app.listen(3000, function () {
     console.log('listening on '+port)
 });
 app.use(bodyParser.json());
+
 
 
 //CRUD students

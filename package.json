@@ -10,11 +10,17 @@
   "author": "Andree L",
   "license": "ISC",
   "dependencies": {
+    "@cucumber/cucumber": "^8.5.2",
     "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "mongodb": "^4.9.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^29.0.2",
+    "nodemon": "^2.0.19",
+    "superagent": "^8.0.0",
+    "supertest": "^6.2.4"
   }
 }
